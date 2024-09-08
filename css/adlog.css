@@ -1,0 +1,135 @@
+
+
+body{
+    width: 90%;
+    background-image: url("../images/adminbg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:200px;
+    left:800px;
+    border-radius: 10px;
+    padding: 20px;
+    
+
+}
+
+.form h2{
+    width:90%;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(5, 55, 3);
+    font-size: 22px;
+    background-color: rgb(125, 104, 200);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input{
+    width: 100%;
+    height: 75px;
+    background: transparent;
+    border-bottom: 1px solid #21764e;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    color:#4f4289;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color:#bc0c0c;
+    font-family: Arial;
+    
+}
+
+.btnn{
+    width: 300px;
+    height: 40px;   
+    
+    background: #9e6666;
+    border:none;
+    margin-top: 70px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#1f1b1b;
+  
+}
+
+.btnn:hover{
+    background: #d4c1c1;
+    color:#857d2d;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form .link a{
+    text-decoration: none;
+    color:#18692e
+}
+
+
+
+.helloadmin{
+    width: 1500px;
+    height: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+.helloadmin h1{
+    margin-top: 800px;
+    margin-left: 500px;
+    display: inline;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: white;
+}
+
+.back{
+    width: 150px;
+    height: 40px;   
+    
+    background: #168f46;
+    border:none;
+    margin-top: 0px;
+    margin-left:1300px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#466482;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
